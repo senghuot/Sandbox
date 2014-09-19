@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head><% include partials/head.ejs %></head>
-  <body>
+  <% include partials/header.ejs %>
+
+  <body class="<%= classname %>">
   	<div class="container">
 
-  		This is your life.
+			<h1><%= title %></h1>
+			<p>load something in an iframe) then the page gets rendered before the font loads. Hovering over the page (body) will show some of the icons and hovering over the remaining icons will show those as well.</p>
 
   		<% include partials/footer.ejs %>
   		<% include partials/jsdefaults.ejs %>
   	</div> <!-- container -->
   </body>
+
 </html>
