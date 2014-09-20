@@ -1,4 +1,4 @@
-var express = require('express');
+varr express = require('express');
 var app = express();
 var routes = require('./routes');
 
@@ -6,6 +6,7 @@ app.set('view engine', 'ejs');
 app.locals.pagetitle = 'Awesome Sandbox';
 
 app.get('/', routes.index);
+app.get('/about', routes.about);
 
 app.get('*', function(req, res) {
 	res.send('Bad Route.');
