@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var routes = require('./routes');
 
-// Comments
+// You're Crazy!!!
 app.set('view engine', 'ejs');
 app.locals.pagetitle = 'Awesome Sandbox';
 
