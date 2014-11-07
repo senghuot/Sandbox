@@ -7,4 +7,3 @@ Here is the list of important:
 - Node.js
 - MongoDB
 - Animation
-- AWS technologies...etc
