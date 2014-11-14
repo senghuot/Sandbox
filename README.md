@@ -7,3 +7,4 @@ Here is the list of important:
 - Node.js
 - MongoDB
 - Animation
+YOLO
